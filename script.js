@@ -33,36 +33,60 @@
 // E-COMMERCE ERROR MESSAGE APP ENDED
 
 // MINI CALCULATOR
-let num1 = 8
-let num2 = 2
+// let num1 = 8
+// let num2 = 2
 
-let num1El = document.getElementById("num1-el").textContent = num1
-let num2El = document.getElementById("num2-el").textContent = num2
-let sumEl = document.getElementById("sum-el")
+// let num1El = document.getElementById("num1-el").textContent = num1
+// let num2El = document.getElementById("num2-el").textContent = num2
+// let sumEl = document.getElementById("sum-el")
 
+// function addition() {
+//     let result = num1 + num2
+//     sumEl.textContent ="sum: " + result 
+// }
 
-function addition() {
-   let result = num1 + num2
-   sumEl.textContent ="sum:" + result
-    
-}
+// function subtraction() {
+//     let result = num1 - num2
+//     sumEl.textContent = "sum: " + result
+// }
 
-function subtraction() {
-    let result = num1 - num2
-    sumEl.textContent = "sum:" + result   
-}
+// function division() {
+//     let result = num1 / num2
+//     sumEl.textContent = "sum: " + result
+// }
 
-function division() {
-    let result = num1 / num2
-    sumEl.textContent = "sum:" + result
-}
-
-function multiply() {
-    let result = num1 * num2
-    sumEl.textContent = "sum:" + result
-}
+// function multiply() {
+//    let result = num1 * num2
+//    sumEl.textContent = "sum: " + result 
+// }
 
 // MINI CALCULATOR ENDED
+
+let age = 20
+
+if (age < 21) {
+   console.log("you cannot enter the club");
+}
+else{
+    console.log("Welcome Otondo");
+}
+
+
+// let firstCard = 11
+// let secondCard = 11
+// let sum = firstCard + secondCard
+// console.log(sum);
+
+// if (sum < 21) {
+//     console.log("draw a new card")
+// }
+// else if (sum === 21) {
+//     console.log("you won a blackjack")
+// }
+// else {
+//     console.log("you are out of the game")
+// }
+
 
 
 // let firstName = "Daniel"
