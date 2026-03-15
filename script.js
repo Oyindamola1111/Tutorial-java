@@ -62,29 +62,54 @@
 
 // MINI CALCULATOR ENDED
 
-let age = 20
 
-if (age < 21) {
-   console.log("you cannot enter the club");
+// BLACKJACK GAME APP
+
+
+let firstCard = 1
+let secondCard = 11
+let sum = firstCard + secondCard
+let isAlive = true
+console.log(sum);
+
+if (sum <= 20) {
+    console.log("draw a new card")
 }
-else{
-    console.log("Welcome Otondo");
+else if (sum === 21) {
+    console.log("you won a blackjack")
+    
+}
+else {
+    console.log("you are out of the game")
+    isAlive = false
 }
 
+console.log(isAlive)
 
-// let firstCard = 11
-// let secondCard = 11
-// let sum = firstCard + secondCard
-// console.log(sum);
 
-// if (sum < 21) {
-//     console.log("draw a new card")
+
+
+// BLACKJACK GAME APP ENDED
+
+// let age = 1000
+
+// if (age < 100) {
+//     console.log("Not eligible");
 // }
-// else if (sum === 21) {
-//     console.log("you won a blackjack")
+// else if(age === 100) {
+//  console.log("here is your card from the king");
 // }
-// else {
-//     console.log("you are out of the game")
+// else{
+//     console.log("not eligible, you have a card already");
+// }
+
+// let age = 20
+
+// if (age < 21) {
+//    console.log("you cannot enter the club");
+// }
+// else{
+//     console.log("Welcome Otondo");
 // }
 
 
