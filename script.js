@@ -76,7 +76,7 @@ if (sum <= 20) {
     console.log("draw a new card")
 }
 else if (sum === 21) {
-    console.log("you won a blackjack")
+    console.log("you won a blackjack huray")
     
 }
 else {
