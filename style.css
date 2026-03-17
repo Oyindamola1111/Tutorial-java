@@ -1,27 +1,22 @@
 
-
+/* COUNTER APP */
 section{
 background-color:lightblue;
 align-items: center;
 text-align: center;
 width: 250px;
-
 padding-block: 10px;
 padding-inline: 10px;
-  
 }
 
 h1{
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 h2{
     margin-top: 0;
     margin-bottom: 20px;
-    
-
 }
 button{
      color: white;
@@ -40,7 +35,9 @@ button{
    background-color: rgb(27, 125, 27); 
    margin-top: 5px;
 }
+/* COUNTER APP ENDED */
 
+/* ERROR MESSAGE  */
 img{
     width: 100px;
 }
@@ -51,7 +48,10 @@ img{
 #error-el{
     color: red;
 }
+/* ERROR MESSAGE ENDED */
 
+
+/* MINI CALCULATOR */
 #main-length{
     width: 500px;
     text-align: center;
@@ -60,3 +60,30 @@ img{
     color: black;
     margin-bottom: 5px;
 }
+/* MINI CALCULATORENDED */
+
+/* BLACK JACK GAME */
+#blackjack-background{
+    background-color:rgb(16, 116, 16) ;
+    color: white;
+    font: bolder; 
+    padding-bottom: 30px;
+}
+#blackjack-el{
+    color:goldenrod;
+}
+#message-el{
+    font-style: italic;
+}
+#startgame-btn{
+    background-color: goldenrod;
+    color:rgb(17, 100, 17);
+    font-weight: bold;
+}
+#newcard-btn{
+    background-color: goldenrod;
+    color:rgb(17, 100, 17);
+    font-weight: bold;
+    margin-top: 5px; 
+}
+/* BLACK JACK GAME ENDED*/
