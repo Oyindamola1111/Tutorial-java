@@ -64,50 +64,53 @@
 
 
 // BLACKJACK GAME APP
-let messageEl = document.getElementById("message-el")
-let sumEl = document.getElementById("sum-el")
-let cardEl = document.getElementById("cards-el")
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// let cardEl = document.getElementById("cards-el")
 
-let firstCard = 10
-let secondCard = 11
-let sum = firstCard + secondCard
-let hasBlackJack = false
-let isAlive = true
-console.log(sum);
-let message = " "
+// let firstCard = 10
+// let secondCard = 11
+// let sum = firstCard + secondCard
+// let cards = [firstCard,secondCard ]
+// let hasBlackJack = false
+// let isAlive = true
+// console.log(sum);
+// let message = " "
 
-function startGame() {
-  sumEl.textContent = "Sum: " + sum
-  cardEl.textContent = "Cards: " + firstCard +" - " + secondCard
 
-    if (sum <= 20) {
-        message = "draw a new card"
-    }
-    else if (sum === 21) {
-        message = "you won a blackjack huray"
-        hasBlackJack = true  
-    }
-    else {
-        message = "you are out of the game"
-        isAlive = false
-    }
+// function startGame() {
+//    renderGame() 
+// }
+
+// function renderGame() {
+//   sumEl.textContent = "Sum: " + sum
+//   cardEl.textContent = "Cards: " + cards[0] +" - " + cards[1]
+
+//     if (sum <= 20) {
+//         message = "draw a new card"
+//     }
+//     else if (sum === 21) {
+//         message = "you won a blackjack huray"
+//         hasBlackJack = true  
+//     }
+//     else {
+//         message = "you are out of the game"
+//         isAlive = false
+//     }
     
-    messageEl.textContent = message
-}
+//     messageEl.textContent = message
+// }
 
-function newCard() {
-    let card = 5
-    sum += card
-    startGame()
-}
-
-
-
-
-
-
+// function newCard() {
+//     let card = 5
+//     sum += card
+//     renderGame()
+// }
 
 // BLACKJACK GAME APP ENDED
+
+
+
 
 // let age = 1000
 
