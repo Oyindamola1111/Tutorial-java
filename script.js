@@ -64,72 +64,112 @@
 
 
 // BLACKJACK GAME APP
-let messageEl = document.getElementById("message-el")
-let sumEl = document.getElementById("sum-el")
-let cardEl = document.getElementById("cards-el")
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// let cardEl = document.getElementById("cards-el")
+// let playerEl = document.getElementById("player-el")
 
-let cards = []
-let sum = 0
-let hasBlackJack = false
-let isAlive = false
-let message = " "
+// let cards = []
+// let sum = 0
+// let hasBlackJack = false
+// let isAlive = false
+// let message = " "
+// let player = {
+//     name: "per",
+//     chips: 145
+// }
 
-function getRandomCard() {
-    let randomNumber = Math.floor(Math.random()* 13) + 1
-     if (randomNumber > 10) {
-       return 11
-    }else if (randomNumber === 1) {
-       return 10
-    }
-    return randomNumber
-}
+// playerEl.textContent = player.name + ":" + " $" + player.chips
 
-function startGame() {
-isAlive = true
-let firstNumber = getRandomCard()
-let secondNumber = getRandomCard()
-sum = firstNumber + secondNumber
-cards=[firstNumber,secondNumber]
+// function getRandomCard() {
+//     let randomNumber = Math.floor(Math.random()* 13) + 1
+//      if (randomNumber > 10) {
+//        return 11
+//     }else if (randomNumber === 1) {
+//        return 10
+//     }
+//     return randomNumber
+// }
 
-   renderGame() 
-}
+// function startGame() {
+// isAlive = true
+// let firstNumber = getRandomCard()
+// let secondNumber = getRandomCard()
+// sum = firstNumber + secondNumber
+// cards=[firstNumber,secondNumber]
+
+//    renderGame() 
+// }
 
 
-function renderGame() {
-  sumEl.textContent = "Sum: " + sum
-  cardEl.textContent = "Cards: "
+// function renderGame() {
+//   sumEl.textContent = "Sum: " + sum
+//   cardEl.textContent = "Cards: "
 
-  for (let i = 0; i < cards.length; i += 1) {
-    cardEl.textContent += cards[i] + " "
-  }
+//   for (let i = 0; i < cards.length; i += 1) {
+//     cardEl.textContent += cards[i] + " "
+//   }
 
-    if (sum <= 20) {
-        message = "draw a new card"
-    }
-    else if (sum === 21) {
-        message = "you won a blackjack huray"
-        hasBlackJack = true  
-    }
-    else {
-        message = "you are out of the game"
-        isAlive = false
-    }
+//     if (sum <= 20) {
+//         message = "draw a new card"
+//     }
+//     else if (sum === 21) {
+//         message = "you won a blackjack huray"
+//         hasBlackJack = true  
+//     }
+//     else {
+//         message = "you are out of the game"
+//         isAlive = false
+//     }
     
-    messageEl.textContent = message
-}
+//     messageEl.textContent = message
+// }
 
-function newCard() {
-    let card = getRandomCard()
-    sum += card
-    cards.push(card)
-    console.log(cards)
-    renderGame()
-}
+// function newCard() {
+//     if(isAlive === true && hasBlackJack === false) {
+//     let card = getRandomCard()
+//         sum += card
+//         cards.push(card)
+//         console.log(cards)
+//         renderGame() 
+//     }
+    
+// }
 
 // BLACKJACK GAME APP ENDED 
 
 
+let airBnb = {
+    name: "castle",
+    age: 60,
+    isFree: true,
+    location: ["china", "ghana"]
+}
+console.log(airBnb.location[0])
+console.log(airBnb.age)
 
+// let likeDocumentaries = true
+// let likeStartUps = false
+
+// if (likeDocumentaries === true || likeStartUps === true) {
+//       recommendMovies() 
+// }
+
+// function recommendMovies() {
+//      console.log("hey, check out this new film")
+// }
+
+
+// let hasSolvedChallenge = false
+// let hasHintsLeft = false
+
+// if(hasSolvedChallenge === false && hasHintsLeft === false) {
+//      showSolution()
+// }
+
+// function showSolution() {
+//     console.log("showing the solution....")
+// }
 
 
 // function rollDice() {
