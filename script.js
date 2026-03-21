@@ -80,7 +80,7 @@
 // }
 
 // playerEl.textContent = player.name + ":" + " $" + player.chips
-
+ 
 // function getRandomCard() {
 //     let randomNumber = Math.floor(Math.random()* 13) + 1
 //      if (randomNumber > 10) {
@@ -138,15 +138,43 @@
 
 // BLACKJACK GAME APP ENDED 
 
+// RECAP
+// let person = {
+//     name: "Sanusi",
+//     age: 12,
+//     country: "Nigeria"
+// }
 
-let airBnb = {
-    name: "castle",
-    age: 60,
-    isFree: true,
-    location: ["china", "ghana"]
-}
-console.log(airBnb.location[0])
-console.log(airBnb.age)
+// function logData() {
+//     let info = person.name + " is " + person.age + " years old and lives in " + person.country
+//     console.log(info)
+// }
+// logData()
+
+// let age = 84
+
+// if(age < 6) {
+//    console.log("Free")
+// }else if(age < 18) {
+//     console.log("child discount")
+// }else if(age < 27) {
+//     console.log("student discount")
+// }else if(age < 67) {
+//     console.log("full price")
+// }else{
+//     console.log("senior citizen discount")
+// }
+
+
+// let airBnb = {
+//     name: "castle",
+//     age: 60,
+//     isFree: true,
+//     location: ["china", "ghana"]
+// }
+// console.log(airBnb.location[0])
+// console.log(airBnb.age)
+// console.log(airBnb.name)
 
 // let likeDocumentaries = true
 // let likeStartUps = false
@@ -275,46 +303,6 @@ console.log(airBnb.age)
 // remove1Point()
 
 // console.log(myPoints);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
