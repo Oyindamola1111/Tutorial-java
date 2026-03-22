@@ -165,6 +165,13 @@
 //     console.log("senior citizen discount")
 // }
 
+// let largeCountries = ["china","india","usa","indonesia","pakistan"]
+// let myCountries= ""
+
+// for(let i = 0; i < largeCountries.length; i ++) {
+//     console.log(" - " +largeCountries[i])
+// }
+
 
 // let airBnb = {
 //     name: "castle",
