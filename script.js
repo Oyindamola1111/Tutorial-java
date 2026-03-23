@@ -166,11 +166,72 @@
 // }
 
 // let largeCountries = ["china","india","usa","indonesia","pakistan"]
-// let myCountries= ""
 
 // for(let i = 0; i < largeCountries.length; i ++) {
 //     console.log(" - " +largeCountries[i])
 // }
+
+
+// let largeCountries = ["tuvalu","india","usa","indonesia","moncao"]
+// largeCountries.pop()
+// largeCountries.shift()
+// largeCountries.push("pakistan")
+// largeCountries.unshift("china")
+// console.log(largeCountries)
+
+// let dayOfMonth = 13
+// let weekDay = "friday"
+
+// if(dayOfMonth === 13 && weekDay === "friday") {
+//     console.log("🤥")
+// }else{
+//     console.log("no way")
+// }
+
+// let hands =  ["rock","paper","scissor"]
+
+// function myHands() {
+//     let randomNumber = Math.floor(Math.random()*3)
+//     return hands[randomNumber]
+// }
+// console.log(myHands())
+
+// let fruits = ["🍎","🍊","🍎","🍎","🍊"]
+// let appleShelf = document.getElementById("apple-shelf")
+// let orangeShelf = document.getElementById("orange-shelf")
+
+
+// function appleBtn() {
+//    for(let i = 0; i < fruits.length; i ++) {
+//       if(fruits[i] === "🍎") {
+//           appleShelf.textContent += "🍎"
+//       }
+//    }
+// }
+
+// function orangeBtn() {
+//     for(let i = 0; i < fruits.length; i ++) {
+//         if(fruits[i] === "🍊") {
+//             orangeShelf.textContent += "🍊"
+//         }
+//     }
+// }
+
+
+
+
+// function myFruits() {
+//     for(let i = 0; i < fruits.length; i ++){
+//      if (fruits[i] === "🍎") {
+//      appleShelf.textContent +=  "🍎" 
+//      }
+//      else if(fruits[i] === "🍊" ) {
+//         orangeShelf.textContent += "🍊"
+//      }
+//     }
+// }
+// myFruits()
+
 
 
 // let airBnb = {
