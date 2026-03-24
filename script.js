@@ -231,6 +231,11 @@
 //     }
 // }
 // myFruits()
+// myFruits()
+ 
+let name = "tobi"
+console.log(name)
+
 
 
 
