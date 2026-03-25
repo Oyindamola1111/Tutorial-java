@@ -233,8 +233,8 @@
 // myFruits()
 // myFruits()
  
-let name = "tobi"
-console.log(name)
+// let name = "tobi"
+// console.log(name)
 
 
 
