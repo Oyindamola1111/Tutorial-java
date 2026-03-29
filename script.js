@@ -235,6 +235,66 @@
  
 // let name = "tobi"
 // console.log(name)
+// let name = ["tobi","kunle", "shalewa"]
+// name.push("john")
+// name.unshift("rose")
+// console.log(name)
+
+let cardEl = document.getElementById("cards-el")
+let sumEl = document.getElementById("sum-el")
+let messageEl = document.getElementById("message-el")
+
+let firstCard = getRandomCard()
+let secondCard = getRandomCard()
+let cards = [firstCard, secondCard]
+let sum = firstCard+secondCard
+hasBlackJack = false
+isAlive = true
+
+
+
+function startGame() {
+    renderGame() 
+    
+}
+
+function getRandomCard() {
+    let randomCard = Math.floor(Math.random()*13)+1
+
+    if(randomCard > 10) {
+        return 10
+    }else if(randomCard === 1) {
+        return 11
+    }else {
+        return randomCard
+    }
+    
+}
+
+
+function renderGame() {
+   
+    cardEl.textContent = "Cards:" + cards
+    sumEl.textContent = "Sum: " + sum
+        
+    if(sum < 21) {
+    message = "draw a new card"
+    }
+    else if(sum === 21) {
+    message = "good you've won a blackjack"
+    hasBlackJack= true
+    console.log(hasBlackJack)
+    }else{
+        message = "you lost"
+        isAlive = false
+    }
+    messageEl.textContent = message
+}
+
+function newCard() {
+    
+}
+
 
 
 
