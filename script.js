@@ -302,7 +302,6 @@ let countEl = document.getElementById("count-el")
 let saveEl = document.getElementById("save-el")
 let showEl = document.getElementById("show-el")
 
-
 let count = 0
 
 function increment() {
@@ -312,10 +311,12 @@ function increment() {
 }
 
 function save() {
-   let saving = count + " - " 
-   saveEl.textContent += saving
-}
+    let saving = count + " - "
+    saveEl.textContent += saving
+    countEl.textContent = 0
+    count = 0
 
+}
 
 
 // let appleShelf = document.getElementById("apple-shelf")
