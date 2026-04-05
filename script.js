@@ -298,25 +298,93 @@
 // } 
 // }
 
+// let countEl = document.getElementById("count-el")
+// let saveEl = document.getElementById("save-el")
+// let showEl = document.getElementById("show-el")
+
+// let count = 0
+
+// function increment() {
+//    active()
+// }
+
+// function active() {
+//     count = count + 1
+//     countEl.textContent = count
+//     showEl.textContent = count 
+// }
+
+// function save() {
+//     let saving = count + " - "
+//     saveEl.textContent += saving
+//     countEl.textContent = 0
+//     count = 0
+// }
+
+
 let countEl = document.getElementById("count-el")
 let saveEl = document.getElementById("save-el")
 let showEl = document.getElementById("show-el")
 
+
 let count = 0
 
 function increment() {
+   adding() 
+}
+
+function save() {
+   mySaving() 
+}
+
+function adding() {
     count = count + 1
     countEl.textContent = count
     showEl.textContent = count
 }
 
-function save() {
-    let saving = count + " - "
-    saveEl.textContent += saving
-    countEl.textContent = 0
-    count = 0
-
+function mySaving() {
+   let saving = count + " - "
+   saveEl.textContent += saving
+   countEl.textContent = 0
+   count = 0
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // let appleShelf = document.getElementById("apple-shelf")
