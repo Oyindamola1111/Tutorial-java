@@ -348,7 +348,11 @@ function mySaving() {
    saveEl.textContent += saving
    countEl.textContent = 0
    count = 0
+   showEl.textContent = 0
 }
+
+console.log(icu)
+
 
 
 
