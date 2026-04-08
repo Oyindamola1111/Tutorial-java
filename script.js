@@ -351,7 +351,8 @@ function mySaving() {
    showEl.textContent = 0
 }
 
-console.log(icu)
+let mine = []
+console.log(mine)
 
 
 
